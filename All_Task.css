@@ -1,0 +1,158 @@
+/* Task 1 Start */
+.coverbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box1, .box2, .box3, .box4{
+    width: 200px; height: 200px; display: flex;
+    align-items: center; justify-content: center;
+    border: 5px solid black; color: #fff; font-size: 2em;
+    margin: 8px 12px;
+}
+.box1{
+    background: rgb(18, 18, 199);
+}
+.box2{
+    background: rgb(250, 109, 58);
+}
+.box3{
+    background: rgb(184, 33, 184);
+}
+.box4{
+    background: rgb(36, 201, 36);
+}
+/* Task 1 End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Task 2 Start*/
+.images img, .images2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img:nth-child(1){
+    box-shadow: rgb(253, 141, 141) 0px 10px 10px 5px;
+}
+.images img:nth-child(2){
+    box-shadow: rgb(230, 150, 203) 0px 5px 10px 5px;
+}
+.images img:nth-child(3){
+    box-shadow: rgb(182, 182, 182) 0px 5px 10px 10px;
+}
+.images img:nth-child(4){
+    box-shadow: rgb(233, 135, 135) 0px 5px 10px 5px;
+}
+.images img:nth-child(5){
+    box-shadow: rgb(195, 195, 195) 0px 5px 10px 5px;
+}
+.images img:nth-child(6){
+    box-shadow: rgb(252, 172, 205) 0px 5px 10px 5px;
+}
+
+.images2 img:nth-child(1){
+    box-shadow: rgb(253, 130, 130) 0px 10px 10px 8px;
+}
+.images2 img:nth-child(2){
+    box-shadow: rgb(128, 123, 123) 0px 5px 10px 5px;
+}
+.images2 img:nth-child(3){
+    box-shadow: rgb(177, 205, 206) 0px 5px 10px 5px;
+}
+.images2 img:nth-child(4){
+    box-shadow: rgb(180, 253, 255) 0px 5px 10px 5px;
+}
+.images2 img:nth-child(5){
+    box-shadow: rgb(150, 243, 247) 0px 5px 10px 5px;
+}
+.images2 img:nth-child(6){
+    box-shadow: rgb(154, 248, 228) 0px 5px 10px 3px;
+}
+/* Task 2 End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dropdownmenu{
+    position: relative; 
+    background: rgb(127, 202, 221);
+}
+#dropdownmenu a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+#spandrop{
+    position: absolute;
+    content: ''; 
+    height: 20px; 
+    width: 20px; 
+    background: rgb(127, 202, 221); 
+    right: 30px; 
+    top: -10px; 
+    transform: rotate(45deg); 
+    z-index: -1;
+}
